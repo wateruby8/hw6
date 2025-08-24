@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>職旅計畫</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+TC:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo"><a href="#"><img
+                        src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/59f6973c658c94689331eea2d93ef4088a0029ee/2025-week5/logo.svg"
+                        alt="logo"></a></div>
+            <div class="menu d-flex justify-content-between d-none d-lg-block">
+                <a href="#">服務方案</a><a class="ml-3 mr-3" href="#">關於職旅</a><a href="#">聯絡我們</a>
+            </div>
+            <div class="user d-flex align-items-center">
+                <img class="rounded-circle mr-2"
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week5/avatar.png?raw=true"
+                    alt="user">
+                <p>Mokumaru</p>
+            </div>
+        </div>
+    </header>
+    <div class="wrap">
+        <div class="tag d-flex align-items-center justify-content-center mb-6">
+            <a class="d-flex align-items-center" href="#"><span class="material-symbols-outlined mr-1">
+                    face
+                </span>個人資料</a>
+            <a class="d-flex align-items-center ml-6 mr-6" href="#"><span class="material-symbols-outlined mr-1">
+                    pending_actions
+                </span>預約紀錄</a>
+            <a class="d-flex align-items-center" href="#"><span class="material-symbols-outlined mr-1">
+                    list_alt
+                </span>職旅計畫</a>
+        </div>
+        <div class="containerWeb mb-0">
+            <form action="project.html">
+                <div class="scheduleList d-flex">
+                    <div class="scheduleName">
+                        <h2 class="mb-3">職旅計畫概況</h2>
+                        <p>欄位皆為<span class="necessary ml-1">必填</span></p>
+                    </div>
+                    <div class="fillInfo d-flex flex-column">
+                        <div class="question">
+                            <label for="status">
+                                目前職業狀態
+                            </label>
+                            <br>
+                            <input type="radio" name="status" id="status" value="全職上班族">全職上班族
+                            <input type="radio" name="status" id="status" value="兼職工作者">兼職工作者
+                            <input type="radio" name="status" id="status" value="自由工作者/接案者">自由工作者/接案者
+                            <input type="radio" name="status" id="status" value="數位遊牧者">數位遊牧者
+                            <input type="radio" name="status" id="status" value="創業者/企業主">創業者/企業主
+                            <input type="radio" name="status" id="status" value="待業中">待業中
+                            <input type="radio" name="status" id="status" value="其他">其他
+                        </div>
+                        <div class="question">
+                            <select name="產業" id="產業">
+                                <option value="工作產業">工作產業</option>
+                                <option value="工作產業">科技</option>
+                                <option value="工作產業">媒體</option>
+                                <option value="工作產業">教育</option>
+                                <option value="工作產業">金融</option>
+                                <option value="工作產業">醫療健康</option>
+                                <option value="工作產業">零售製造</option>
+                                <option value="工作產業">服務業</option>
+                                <option value="工作產業">藝術創意</option>
+                                <option value="工作產業">非營利組織</option>
+                            </select>
+                        </div>
+                        <div class="question">
+                            <select name="year" id="year">
+                                <option value="工作年資">工作年資</option>
+                                <option value="工作年資">1 年以下</option>
+                                <option value="工作年資">1-3 年</option>
+                                <option value="工作年資">3-5 年</option>
+                                <option value="工作年資">5-10 年</option>
+                                <option value="工作年資">10 年以上</option>
+                            </select>
+                        </div>
+                        <div class="question">
+                            <label for="salary">月收入區間</label>
+                            <br>
+                            <input type="radio" name="salary" id="salary" value="3 萬以下">3 萬以下
+                            <input type="radio" name="salary" id="salary" value="3 萬以下">3-5 萬
+                            <input type="radio" name="salary" id="salary" value="3 萬以下">5-8 萬
+                            <input type="radio" name="salary" id="salary" value="3 萬以下">8-12 萬
+                            <input type="radio" name="salary" id="salary" value="3 萬以下">12-20 萬
+                            <input type="radio" name="salary" id="salary" value="3 萬以下">20 萬以上
+
+                        </div>
+                        <div class="question">
+                            <textarea name="jobSummary" id="jobSummary">職業摘要（簡短描述您的專業背景和核心競爭力最多 300 字）</textarea>
+                        </div>
+                        <div class="question"> <textarea name="作品案例展示" id="作品案例展示">作品案例展示</textarea></div>
+
+                        <div class="question">
+                            <label for="attach">附件檔案</label><br>
+                            <input type="button" id="attach" value="上傳檔案">
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="scheduleList d-flex">
+                    <div class="scheduleName">
+                        <h2 class="mb-3">職涯規劃</h2>
+                        <p>欄位皆為<span class="necessary ml-1">必填</span></p>
+                    </div>
+
+                    <div class="fillInfo d-flex flex-column">
+                        <div class="question">
+                            <textarea name="1 年短期職涯目標" id="1 年短期職涯目標">1 年短期職涯目標（最多 300 字）</textarea>
+                        </div>
+
+                        <div class="question">
+                            <textarea name="1-3 年中長期職涯願景" id="1-3 年中長期職涯願景">1-3 年中長期職涯願景（最多 300 字）</textarea>
+                        </div>
+                        <div class="question">
+                            <label for="理想工作模式">理想工作模式</label><br>
+                            <input type="radio" name="理想工作模式" id="理想工作模式" value="固定辦公室工作">固定辦公室工作
+                            <input type="radio" name="理想工作模式" id="理想工作模式" value="混合式工作(辦公室+遠端)">混合式工作(辦公室+遠端)
+                            <input type="radio" name="理想工作模式" id="理想工作模式" value="完全遠端工作(固定地點)">完全遠端工作(固定地點)
+                            <input type="radio" name="理想工作模式" id="理想工作模式" value="數位遊牧(邊工作邊旅行)">數位遊牧(邊工作邊旅行)
+                            <input type="radio" name="理想工作模式" id="理想工作模式" value="其他(請說明)">其他(請說明)
+                        </div>
+                        <div class="question">
+                            <textarea name="目標薪資/收入" id="目標薪資/收入">目標薪資/收入</textarea>
+                        </div>
+                        <div class="question"><label for="目前面臨的職涯挑戰">目前面臨的職涯挑戰</label><br>
+                            <input type="checkbox" name="目前面臨的職涯挑戰" id="目前面臨的職涯挑戰" value="方向不明確">方向不明確
+                            <input type="checkbox" name="目前面臨的職涯挑戰" id="目前面臨的職涯挑戰" value="技能需要提升">技能需要提升
+                            <input type="checkbox" name="目前面臨的職涯挑戰" id="目前面臨的職涯挑戰" value="收入不穩定">收入不穩定
+                            <input type="checkbox" name="目前面臨的職涯挑戰" id="目前面臨的職涯挑戰" value="客戶開發困難">客戶開發困難
+                            <input type="checkbox" name="目前面臨的職涯挑戰" id="目前面臨的職涯挑戰" value="時間管理問題">時間管理問題
+                            <input type="checkbox" name="目前面臨的職涯挑戰" id="目前面臨的職涯挑戰" value="工作生活失衡">工作生活失衡
+                            <input type="checkbox" name="目前面臨的職涯挑戰" id="目前面臨的職涯挑戰" value="缺乏人脈資源">缺乏人脈資源
+                            <input type="checkbox" name="目前面臨的職涯挑戰" id="目前面臨的職涯挑戰" value="其他(請說明)">其他(請說明)
+                        </div>
+                        <div class="question"><label for="期望獲得的協助與資源">期望獲得的協助與資源</label><br>
+                            <input type="checkbox" name="期望獲得的協助與資源" id="期望獲得的協助與資源" value="職涯方向指導">職涯方向指導
+                            <input type="checkbox" name="期望獲得的協助與資源" id="期望獲得的協助與資源" value="專業技能提升建議">專業技能提升建議
+                            <input type="checkbox" name="期望獲得的協助與資源" id="期望獲得的協助與資源" value="個人品牌建立">個人品牌建立
+                            <input type="checkbox" name="期望獲得的協助與資源" id="期望獲得的協助與資源" value="接案策略與定價">接案策略與定價
+                            <input type="checkbox" name="期望獲得的協助與資源" id="期望獲得的協助與資源" value="客戶開發方法">客戶開發方法
+                            <input type="checkbox" name="期望獲得的協助與資源" id="期望獲得的協助與資源" value="財務規劃">財務規劃
+                            <input type="checkbox" name="期望獲得的協助與資源" id="期望獲得的協助與資源" value="時間管理系統">時間管理系統
+                            <input type="checkbox" name="期望獲得的協助與資源" id="期望獲得的協助與資源" value="工作生活平衡">工作生活平衡
+                            <input type="checkbox" name="期望獲得的協助與資源" id="期望獲得的協助與資源" value="其他(請說明)">其他(請說明)
+                        </div>
+                        <div class="question"><label for="感興趣的服務方案">感興趣的服務方案</label><br>
+                            <input type="checkbox" name="感興趣的服務方案" id="感興趣的服務方案" value="探索定位">探索定位
+                            <input type="checkbox" name="感興趣的服務方案" id="感興趣的服務方案" value="客製化方案">客製化方案
+                            <input type="checkbox" name="感興趣的服務方案" id="感興趣的服務方案" value="實戰指導">實戰指導
+                        </div>
+
+                    </div>
+                </div>
+                <div class="scheduleList d-flex">
+                    <div class="scheduleName">
+                        <h2 class="mb-3">專業技能區塊</h2>
+                        <p>欄位皆為<span class="necessary ml-1">必填</span></p>
+                    </div>
+                    <div class="fillInfo d-flex flex-column">
+                        <div class="question">
+                            <label for="核心專業領域">核心專業領域</label><br>
+                            <input type="checkbox" name="核心專業領域" id="核心專業領域" value="設計/創意">設計/創意
+                            <input type="checkbox" name="核心專業領域" id="核心專業領域" value="科技/程式開發">科技/程式開發
+                            <input type="checkbox" name="核心專業領域" id="核心專業領域" value="行銷/公關">行銷/公關
+                            <input type="checkbox" name="核心專業領域" id="核心專業領域" value="內容創作/寫作">內容創作/寫作
+                            <input type="checkbox" name="核心專業領域" id="核心專業領域" value="顧問/諮詢">顧問/諮詢
+                            <input type="checkbox" name="核心專業領域" id="核心專業領域" value="商業/管理">商業/管理
+                            <input type="checkbox" name="核心專業領域" id="核心專業領域" value="財務/會計">財務/會計
+                            <input type="checkbox" name="核心專業領域" id="核心專業領域" value="教育/培訓">教育/培訓
+                            <input type="checkbox" name="核心專業領域" id="核心專業領域" value="法律/合規">法律/合規
+                            <input type="checkbox" name="核心專業領域" id="核心專業領域" value="健康/醫療">健康/醫療
+                        </div>
+                        <div class="question">
+                            <textarea name="專業背景和核心競爭力" id="專業背景和核心競爭力">專業背景和核心競爭力（最多300字）</textarea>
+                        </div>
+                        <div class="question">
+                            <textarea name="專業技能" id="專業技能">專業技能（最多300字）</textarea>
+                        </div>
+                        <div class="question"><textarea name="語文能力" id="語文能力">語文能力（最多300字）</textarea></div>
+                        <div class="question"> <textarea name="資格證照" id="資格證照">資格證照（最多300字）</textarea></div>
+
+                    </div>
+                </div>
+                <div class="scheduleList border-bottom-0 d-flex">
+                    <div class="scheduleName">
+                        <h2 class="mb-3">教育背景</h2>
+                        <p>欄位皆為<span class="necessary ml-1">必填</span></p>
+                    </div>
+                    <div class="fillInfo d-flex flex-column">
+                        <div class="question">
+                            <textarea name="background" id="background">學歷背景（最多500字）</textarea>
+                        </div>
+
+                        <div class="question">
+                            <textarea name="skill" id="skill">專業培訓與工作坊（最多500字）</textarea>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tag d-flex align-items-center justify-content-center mb-6">
+                    <button type="submit" class="d-flex align-items-center mr-6">
+                        匯出PDF<span class="material-symbols-outlined ml-1">
+                            chevron_right
+                        </span>
+                    </button>
+                    <button type="submit" class="d-flex align-items-center">
+                        儲存更新<span class="material-symbols-outlined ml-1">
+                            chevron_right
+                        </span>
+                    </button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+   <footer>
+        <div class="container d-flex flex-column flex-lg-row justify-content-between ">
+            <div class="other d-flex justify-content-center flex-wrap">
+                <a href="#">服務方案</a>
+                <a href="#">關於職旅</a>
+                <a href="#">聯絡我們</a>
+                <a href="privacy.html">隱私權政策</a>
+                <a href="rule.html">用戶條款</a>
+            </div>
+            <div class="copyright ">
+                <p>Copyright © 2025 職旅 workway. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+header {
+    background-color: $light;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid $b-primary;
+}
+
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.menu {
+    a {
+        color: #141A1F;
+        padding: 8px 24px;
+        border-radius: 16px;
+
+        &:hover {
+            background-color: #E0E5EB;
+        }
+    }
+}
+
+.user {
+    img {
+        height: 44px;
+    }
+}
+
+.wrap {
+    background-color: $secondary;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.tag {
+    a {
+        display: block;
+        color: #141A1F;
+        background-color: $light;
+        padding: 12px 20px;
+        border: 1px solid #D1D9E1;
+        border-radius: 16px;
+
+        &:hover {
+            background-color: #E0E5EB;
+        }
+    }
+}
+
+.containerWeb {
+    max-width: 1076px;
+    margin: 0 auto;
+    background-color: $light;
+    padding: 48px;
+    border-radius: 24px;
+}
+
+.scheduleList {
+    margin-bottom: 48px;
+    border-bottom: 1px solid #D1D9E1;
+}
+
+.scheduleName {
+    width: 300px;
+    margin-right: 24px;
+
+    h2 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    p {
+        color: #667F99;
+    }
+}
+
+.necessary {
+    background-color: #E51300;
+    color: #FCFCFD;
+    line-height: 1.2;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 12px;
+}
+
+.question {
+    margin-bottom: 24px;
+}
+
+footer {
+    background-color: $secondary;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    border-top: 1px solid #F0F3F5;
+
+    a {
+        color: #141A1F;
+        padding: 8px 24px;
+
+    }
+}
+
+.copyright {
+    font-size: 14px;
+    color: #667F99;
+    text-align: center;
+
+}
+
+
+
+
+// *{
+//     outline:1px solid pink;
+// }

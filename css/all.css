@@ -1,0 +1,314 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+body {
+  line-height: 1.5;
+  color: #141A1F;
+  font-family: "Noto Sans TC", sans-serif;
+  letter-spacing: 0.02rem;
+}
+
+.mr-1 {
+  margin-right: 4px;
+}
+
+.ml-1 {
+  margin-left: 4px;
+}
+
+.ml-2 {
+  margin-left: 8px;
+}
+
+.mr-2 {
+  margin-right: 8px;
+}
+
+.ml-3 {
+  margin-left: 12px;
+}
+
+.mr-3 {
+  margin-right: 12px;
+}
+
+.mb-3 {
+  margin-bottom: 12px;
+}
+
+.ml-6 {
+  margin-left: 24px;
+}
+
+.mr-6 {
+  margin-right: 24px;
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-12 {
+  margin-bottom: 48px;
+}
+
+header {
+  background-color: #FCFCFD;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #D1D9E1;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.menu a {
+  color: #141A1F;
+  padding: 8px 24px;
+  border-radius: 16px;
+}
+.menu a:hover {
+  background-color: #E0E5EB;
+}
+
+.user img {
+  height: 44px;
+}
+
+.wrap {
+  background-color: #F0F3F5;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.tag a {
+  display: block;
+  color: #141A1F;
+  background-color: #FCFCFD;
+  padding: 12px 20px;
+  border: 1px solid #D1D9E1;
+  border-radius: 16px;
+}
+.tag a:hover {
+  background-color: #E0E5EB;
+}
+
+.containerWeb {
+  max-width: 1076px;
+  margin: 0 auto;
+  background-color: #FCFCFD;
+  padding: 48px;
+  border-radius: 24px;
+}
+
+.scheduleList {
+  margin-bottom: 48px;
+  border-bottom: 1px solid #D1D9E1;
+}
+
+.scheduleName {
+  width: 300px;
+  margin-right: 24px;
+}
+.scheduleName h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+}
+.scheduleName p {
+  color: #667F99;
+}
+
+.necessary {
+  background-color: #E51300;
+  color: #FCFCFD;
+  line-height: 1.2;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 12px;
+}
+
+.question {
+  margin-bottom: 24px;
+}
+
+footer {
+  background-color: #F0F3F5;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  border-top: 1px solid #F0F3F5;
+}
+footer a {
+  color: #141A1F;
+  padding: 8px 24px;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #667F99;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.dot {
+  list-style-type: disc;
+  list-style-position: inside;
+}/*# sourceMappingURL=all.css.map */
