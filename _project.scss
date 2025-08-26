@@ -10,8 +10,9 @@ header {
     margin: 0 auto;
 }
 
-.menu {
-    a {
+.navbar-nav .nav-item { 
+
+    .nav-link {
         color: #141A1F;
         padding: 8px 24px;
         border-radius: 16px;
@@ -20,6 +21,10 @@ header {
             background-color: #E0E5EB;
         }
     }
+
+
+
+
 }
 
 .user {
@@ -63,7 +68,7 @@ header {
 }
 
 .scheduleName {
-    width: 300px;
+    width: 30%;
     margin-right: 24px;
 
     h2 {
@@ -77,6 +82,10 @@ header {
     }
 }
 
+.fillInfo {
+    width: 70%;
+}
+
 .necessary {
     background-color: #E51300;
     color: #FCFCFD;
@@ -88,6 +97,36 @@ header {
 
 .question {
     margin-bottom: 24px;
+}
+
+.size56 {
+    width: 100%;
+    padding: 16px 12px;
+    border: 1px solid #D1D9E1;
+    border-radius: 8px;
+}
+
+.t300 {
+    width: 100%;
+    height: 160px;
+    padding-top: 16px;
+    padding-left: 12px;
+    border-radius: 8px;
+    border: 1px solid #D1D9E1;
+}
+
+.btn {
+    padding: 12px 20px;
+    background-color: #FCFCFD;
+    border: 1px solid #D1D9E1;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        background-color: #141A1F;
+        color: #FCFCFD;
+    }
 }
 
 footer {
