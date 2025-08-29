@@ -3,7 +3,9 @@ header {
     padding-top: 12px;
     padding-bottom: 12px;
     border-bottom: 1px solid $b-primary;
+    position: relative;
 }
+
 
 .container {
     max-width: 1296px;
@@ -22,16 +24,14 @@ header {
         }
     }
 
-
-
-
 }
 
-.user {
+.user {   
     img {
         height: 44px;
     }
 }
+
 
 .wrap {
     background-color: $secondary;

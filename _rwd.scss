@@ -1,5 +1,23 @@
 @media (max-width:999px) {
+    .containerWeb {
+        max-width: 999px;   
+        margin: 0 12px;    
 
-  
+    }
+
+    .scheduleName {
+        width: 100%;
+    }
+
+    .fillInfo {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 16px;
+        margin-right: 0;
+    }
+    
 
 }

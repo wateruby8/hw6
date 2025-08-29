@@ -200,11 +200,16 @@ body {
   margin-bottom: 48px;
 }
 
+.m-auto {
+  margin: 0 auto;
+}
+
 header {
   background-color: #FCFCFD;
   padding-top: 12px;
   padding-bottom: 12px;
   border-bottom: 1px solid #D1D9E1;
+  position: relative;
 }
 
 .container {
@@ -348,4 +353,22 @@ h2 {
 .dot {
   list-style-type: disc;
   list-style-position: inside;
+}
+
+@media (max-width: 999px) {
+  .containerWeb {
+    max-width: 999px;
+    margin: 0 12px;
+  }
+  .scheduleName {
+    width: 100%;
+  }
+  .fillInfo {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+    margin-bottom: 16px;
+    margin-right: 0;
+  }
 }/*# sourceMappingURL=all.css.map */
